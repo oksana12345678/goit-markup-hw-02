@@ -1,7 +1,7 @@
 body {
   background: #fff;
   color: #434455;
-  font-family: "Roboto", Raleway, sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 /*menu*/
 header {
@@ -14,12 +14,6 @@ header li {
   display: flex;
 }
 .logo {
-  color: #2e2f42;
-  font-family: "Raleway";
-  font-size: 18px;
-  line-height: 1.16em;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
   margin-top: 24px;
   margin-left: 156px;
   margin-right: 76px;
@@ -28,13 +22,21 @@ header li {
 }
 .logo-web {
   color: #4d5ae5;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
   font-size: 18px;
-  line-height: 1.16em;
+  line-height: 1.17em;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  margin-top: 24px;
-  margin-left: 156px;
+}
+.logo-stud {
+  color: #2e2f42;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.17em;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
 }
 .conteiner-menu {
   color: #2e2f42;
@@ -69,10 +71,13 @@ header li {
 .conteiner-menu-items:focus {
   color: #404bbf;
 }
+.conteiner-address {
+  font-style: normal;
+}
+
 .conteiner-contakts {
   display: flex;
   flex-direction: row;
-  font-style: normal;
 }
 .conteiner-contakts-items {
   text-decoration: none;
@@ -101,6 +106,7 @@ header li {
 }
 .title {
   color: #fff;
+
   text-align: center;
   font-size: 56px;
   line-height: 1.07em;
@@ -114,6 +120,8 @@ header li {
 .conteiner-title-button {
   border-radius: 4px;
   background: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   color: #fff;
   padding-top: 16px;
@@ -130,7 +138,18 @@ header li {
   margin-left: 634px;
 }
 .conteiner-title-button:hover {
-  color: #404bbf;
+  background-color: #404bbf;
+}
+.conteiner-title-button:focus {
+  background-color: #404bbf;
+}
+.conteiner-text-title {
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2em;
+  letter-spacing: 0.002em;
 }
 .main-content-text {
   display: flex;
@@ -138,4 +157,12 @@ header li {
 }
 .main-content-text-items {
   margin-right: 24px;
+}
+.conteiner-text {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5em;
+  letter-spacing: 0.002em;
 }

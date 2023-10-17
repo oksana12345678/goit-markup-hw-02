@@ -230,3 +230,45 @@ header li {
   line-height: 1.5em;
   letter-spacing: 0.002em;
 }
+.conteiner-footer {
+  background: #2e2f42;
+  width: 1440px;
+  height: 312px;
+  flex-shrink: 0;
+}
+.logo-two {
+  display: flex;
+  width: 44px;
+  height: 21px;
+  flex-direction: row;
+  justify-content: center;
+}
+.logo-web-two {
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17em;
+  letter-spacing: 0.003em;
+  text-transform: uppercase;
+}
+.logo-stud-two {
+  color: #f4f4fd;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17em;
+  letter-spacing: 0.003em;
+  text-transform: uppercase;
+}
+.footer-desc {
+  color: #f4f4fd;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5em;
+  letter-spacing: 0.002em;
+}

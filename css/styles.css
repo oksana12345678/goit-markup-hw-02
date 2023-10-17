@@ -132,10 +132,10 @@ header li {
 .conteiner-title-button:hover {
   color: #404bbf;
 }
-.main-content {
+.main-content-text {
   display: flex;
   flex-direction: row;
 }
-.main-content-items {
+.main-content-text-items {
   margin-right: 24px;
 }

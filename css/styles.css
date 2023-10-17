@@ -1,7 +1,7 @@
 body {
   background: #fff;
   color: #434455;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", Raleway, sans-serif;
 }
 /*menu*/
 header {
@@ -17,7 +17,6 @@ header li {
   color: #2e2f42;
   font-family: "Raleway";
   font-size: 18px;
-  font-weight: 700;
   line-height: 21px;
   letter-spacing: 0.54px;
   text-transform: uppercase;
@@ -31,7 +30,6 @@ header li {
   color: #4d5ae5;
   font-family: "Raleway";
   font-size: 18px;
-  font-weight: 700;
   line-height: 21px;
   letter-spacing: 0.54px;
   text-transform: uppercase;
@@ -41,7 +39,6 @@ header li {
 .conteiner-menu {
   color: #2e2f42;
   font-size: 16px;
-  font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.32px;
   display: flex;
@@ -54,9 +51,23 @@ header li {
 
 .conteiner-menu-items {
   margin-left: 40px;
-}
-.conteiner-menu-items a {
   text-decoration: none;
+  width: 48px;
+  height: 48px;
+  padding-bottom: 0px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.conteiner-menu-items:hover {
+  color: #404bbf;
+}
+.conteiner-menu-items:active {
+  color: #404bbf;
+}
+.conteiner-menu-items:focus {
+  color: #404bbf;
 }
 .conteiner-contakts {
   display: flex;
@@ -67,13 +78,18 @@ header li {
   text-decoration: none;
   color: #434455;
   font-size: 16px;
-  font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.32px;
   margin-top: 24px;
   margin-left: 0;
   margin-right: 40px;
   margin-bottom: 24px;
+}
+.conteiner-contakts-items:hover {
+  color: #404bbf;
+}
+.conteiner-contakts-items:focus {
+  color: #404bbf;
 }
 
 /*conteiner-title*/
@@ -87,7 +103,6 @@ header li {
   color: #fff;
   text-align: center;
   font-size: 56px;
-  font-weight: 700;
   line-height: 60px;
   letter-spacing: 1.12px;
   padding-top: 188px;
@@ -106,10 +121,21 @@ header li {
   padding-right: 32px;
   padding-bottom: 16px;
   flex-direction: row;
+  border-width: 0;
+  cursor: pointer;
   /* Button Text */
   font-size: 16px;
-  font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.64px;
   margin-left: 634px;
+}
+.conteiner-title-button:hover {
+  color: #404bbf;
+}
+.main-content {
+  display: flex;
+  flex-direction: row;
+}
+.main-content-items {
+  margin-right: 24px;
 }

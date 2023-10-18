@@ -34,6 +34,9 @@ header li {
   line-height: 1.5em;
   letter-spacing: 0.02em;
 }
+.conteiner-menu-items {
+  color: #2e2f42;
+}
 .conteiner-menu-items:hover {
   color: #404bbf;
 }

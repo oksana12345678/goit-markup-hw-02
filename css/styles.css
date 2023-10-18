@@ -11,7 +11,7 @@ header li {
   text-decoration: none;
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 18px;
   line-height: 1.17em;
   letter-spacing: 0.003em;
@@ -21,7 +21,7 @@ header li {
 .logo-stud {
   color: #2e2f42;
   font-family: "Raleway", sans-serif;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 18px;
   line-height: 1.17em;
   letter-spacing: 0.003em;
@@ -70,11 +70,9 @@ header li {
   letter-spacing: 1.12px;
 }
 .conteiner-title-button {
-  border-radius: 4px;
   background: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   color: #fff;
   cursor: pointer;
   /* Button Text */

@@ -33,18 +33,6 @@ header li {
   line-height: 1.5em;
   letter-spacing: 0.32px;
 }
-
-.conteiner-menu-items {
-  margin-left: 40px;
-  text-decoration: none;
-  width: 48px;
-  height: 48px;
-  padding-bottom: 0px;
-  justify-content: center;
-  align-items: center;
-  flex-shrink: 0;
-}
-
 .conteiner-menu-items:hover {
   color: #404bbf;
 }
@@ -57,17 +45,12 @@ header li {
 .conteiner-address {
   font-style: normal;
 }
-
 .conteiner-contakts-items {
   text-decoration: none;
   color: #434455;
   font-size: 16px;
   line-height: 1.5em;
   letter-spacing: 0.32px;
-  margin-top: 24px;
-  margin-left: 0;
-  margin-right: 40px;
-  margin-bottom: 24px;
 }
 .conteiner-contakts-items:hover {
   color: #404bbf;
@@ -75,26 +58,16 @@ header li {
 .conteiner-contakts-items:focus {
   color: #404bbf;
 }
-
 /*conteiner-title*/
 .conteiner-title {
   background: #2e2f42;
-  width: 1440px;
-  height: 600px;
-  flex-shrink: 0;
 }
 .title {
   color: #fff;
-
   text-align: center;
   font-size: 56px;
   line-height: 1.07em;
   letter-spacing: 1.12px;
-  padding-top: 188px;
-  padding-left: 472px;
-  padding-right: 472px;
-  padding-bottom: 0;
-  margin-top: 0;
 }
 .conteiner-title-button {
   border-radius: 4px;
@@ -103,12 +76,6 @@ header li {
   font-weight: 500;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   color: #fff;
-  padding-top: 16px;
-  padding-left: 32px;
-  padding-right: 32px;
-  padding-bottom: 16px;
-  flex-direction: row;
-  border-width: 0;
   cursor: pointer;
   /* Button Text */
   font-size: 16px;
@@ -204,9 +171,6 @@ header li {
 }
 .conteiner-footer {
   background: #2e2f42;
-  width: 1440px;
-  height: 312px;
-  flex-shrink: 0;
 }
 .logo-two {
   color: #4d5ae5;

@@ -4,38 +4,27 @@ body {
   font-family: "Roboto", sans-serif;
 }
 /*menu*/
-header {
-  display: flex;
-}
 header li {
   list-style: none;
 }
-.conteiner-nav {
-  display: flex;
-}
 .logo {
-  margin-top: 24px;
-  margin-left: 156px;
-  margin-right: 76px;
-  margin-bottom: 24px;
   text-decoration: none;
-}
-.logo-web {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-size: 18px;
   line-height: 1.17em;
-  letter-spacing: 0.54px;
+  letter-spacing: 0.003em;
   text-transform: uppercase;
 }
+
 .logo-stud {
   color: #2e2f42;
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-size: 18px;
   line-height: 1.17em;
-  letter-spacing: 0.54px;
+  letter-spacing: 0.003em;
   text-transform: uppercase;
 }
 .conteiner-menu {
@@ -43,12 +32,6 @@ header li {
   font-size: 16px;
   line-height: 1.5em;
   letter-spacing: 0.32px;
-  display: flex;
-  flex-direction: row;
-  margin-right: 332px;
-  margin-top: 24px;
-  margin-left: 0;
-  margin-bottom: 24px;
 }
 
 .conteiner-menu-items {
@@ -75,10 +58,6 @@ header li {
   font-style: normal;
 }
 
-.conteiner-contakts {
-  display: flex;
-  flex-direction: row;
-}
 .conteiner-contakts-items {
   text-decoration: none;
   color: #434455;
@@ -134,8 +113,7 @@ header li {
   /* Button Text */
   font-size: 16px;
   line-height: 1.5em;
-  letter-spacing: 0.64px;
-  margin-left: 634px;
+  letter-spacing: 0.02em;
 }
 .conteiner-title-button:hover {
   background-color: #404bbf;
@@ -151,13 +129,7 @@ header li {
   line-height: 1.2em;
   letter-spacing: 0.002em;
 }
-.main-content-text {
-  display: flex;
-  flex-direction: row;
-}
-.main-content-text-items {
-  margin-right: 24px;
-}
+
 .conteiner-text {
   color: #434455;
   font-size: 16px;
@@ -237,13 +209,6 @@ header li {
   flex-shrink: 0;
 }
 .logo-two {
-  display: flex;
-  width: 44px;
-  height: 21px;
-  flex-direction: row;
-  justify-content: center;
-}
-.logo-web-two {
   color: #4d5ae5;
   font-family: Raleway, sans-serif;
   font-size: 18px;

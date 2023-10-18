@@ -29,6 +29,7 @@ header li {
 }
 .conteiner-menu {
   color: #2e2f42;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5em;
   letter-spacing: 0.32px;
@@ -48,6 +49,7 @@ header li {
 .conteiner-contakts-items {
   text-decoration: none;
   color: #434455;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5em;
   letter-spacing: 0.32px;
@@ -67,7 +69,7 @@ header li {
   text-align: center;
   font-size: 56px;
   line-height: 1.07em;
-  letter-spacing: 1.12px;
+  letter-spacing: 0.02em;
 }
 .conteiner-title-button {
   background: #4d5ae5;
@@ -78,7 +80,7 @@ header li {
   /* Button Text */
   font-size: 16px;
   line-height: 1.5em;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.04em;
 }
 .conteiner-title-button:hover {
   background-color: #404bbf;
@@ -87,19 +89,20 @@ header li {
   background-color: #404bbf;
 }
 .conteiner-text-title {
+  color: #2e2f42;
   font-family: Roboto;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.2em;
-  letter-spacing: 0.002em;
+  letter-spacing: 0.02em;
 }
 
 .conteiner-text {
   color: #434455;
   font-size: 16px;
   line-height: 1.5em;
-  letter-spacing: 0.002em;
+  letter-spacing: 0.02em;
 }
 .conteiner-team-desc {
   background: #f4f4fd;
@@ -112,60 +115,11 @@ header li {
   font-style: normal;
   font-weight: 700;
   line-height: 1.11em;
-  letter-spacing: 0.002em;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 .conteiner-team-items {
   background-color: #ffffff;
-}
-.conteiner-team-desc-title {
-  color: #2e2f42;
-  text-align: center;
-  font-family: Roboto;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.2em;
-  letter-spacing: 0.002em;
-}
-.conteiner-team-desc-job {
-  color: #434455;
-  text-align: center;
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.5em;
-  letter-spacing: 0.002em;
-}
-.conteiner-portf-title {
-  color: #2e2f42;
-  text-align: center;
-  font-family: Roboto;
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1.11em;
-  letter-spacing: 0.002em;
-  text-transform: capitalize;
-}
-.conteiner-portf-title-three {
-  color: #2e2f42;
-  font-family: Roboto;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.2em;
-  letter-spacing: 0.002em;
-}
-.conteiner-portf-desc {
-  color: #434455;
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.5em;
-  letter-spacing: 0.002em;
 }
 .conteiner-footer {
   background: #2e2f42;
